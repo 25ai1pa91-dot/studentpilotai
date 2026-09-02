@@ -10,6 +10,7 @@ Open **two separate terminal windows** in the project root:
 
 ### 🖥️ Terminal 1 — Backend:
 `ash
+
 cd backend
 npm install
 npm run dev
@@ -21,6 +22,7 @@ npm run dev
 
 ### 💻 Terminal 2 — Frontend:
 `ash
+
 cd frontend
 npm install
 npm run dev
