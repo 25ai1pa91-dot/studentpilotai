@@ -2,7 +2,29 @@
 
 > **Living Engineering Observatory & AI-Powered Career Operating System**
 
-StudentPilot AI is an enterprise-grade, state-driven engineering learning operating system designed to guide learners from fundamental programming mental models to advanced DSA, system architecture, and placement readiness.
+---
+
+## ⚡ Quick Start (बस ये चलाओ और शुरू हो जाएगा)
+
+प्रोजेक्ट चलाने के लिए **दो अलग-अलग Terminal / Command Prompt** खोलें:
+
+### 🖥️ Terminal 1 — Backend:
+`ash
+cd backend
+npm install
+npm run dev
+`
+> 🌐 **Backend API**: http://localhost:8000
+
+---
+
+### 💻 Terminal 2 — Frontend:
+`ash
+cd frontend
+npm install
+npm run dev
+`
+> 🚀 **Frontend Web App**: http://localhost:8443/
 
 ---
 
@@ -26,7 +48,7 @@ Before running the project, make sure you have:
 ## ⚙️ Environment Variables Setup
 
 ### 1. Backend (ackend/.env)
-Create a .env file in the ackend/ directory with the following variables:
+Create a .env file in the ackend/ directory:
 `env
 PORT=8000
 NODE_ENV=development
@@ -43,45 +65,6 @@ Create a .env file in the rontend/ directory:
 `env
 VITE_API_BASE_URL=http://localhost:8000/api/v1
 `
-
----
-
-## 🚀 How to Run the Project (Step-by-Step)
-
-You need to run **two terminal windows** (one for Backend, one for Frontend).
-
-### Step 1: Start the Backend Server
-
-Open your terminal / Command Prompt:
-`ash
-# 1. Navigate to the backend folder
-cd backend
-
-# 2. Install dependencies (First time only)
-npm install
-
-# 3. Start the development server
-npm run dev
-`
-- **Backend URL**: http://localhost:8000
-- **Health Check**: http://localhost:8000/api/v1/health
-
----
-
-### Step 2: Start the Frontend Application
-
-Open a **second terminal / Command Prompt**:
-`ash
-# 1. Navigate to the frontend folder
-cd frontend
-
-# 2. Install dependencies (First time only)
-npm install
-
-# 3. Start the development server
-npm run dev
-`
-- **Frontend URL**: http://localhost:8443/
 
 ---
 
@@ -117,13 +100,13 @@ StudentPilotAI/
 
 ### Backend (/backend)
 - 
-pm run dev - Run server in development mode (with tsx hot-reloading)
+pm run dev - Run server with automatic reload (tsx watch)
 - 
 pm run build - Compile TypeScript to JavaScript
 - 
 pm start - Run production server
 - 
-pm test - Run backend tests
+pm test - Run test suite
 
 ### Frontend (/frontend)
 - 
