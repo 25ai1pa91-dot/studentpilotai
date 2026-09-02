@@ -12,7 +12,9 @@ Open **two separate terminal windows** in the project root:
 `ash
 
 cd backend
+
 npm install
+
 npm run dev
 `
 > 🌐 **Backend API**: http://localhost:8000  
@@ -24,7 +26,9 @@ npm run dev
 `ash
 
 cd frontend
+
 npm install
+
 npm run dev
 `
 > 🚀 **Frontend Web App**: http://localhost:8443/
