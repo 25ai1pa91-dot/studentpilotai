@@ -4,9 +4,9 @@
 
 ---
 
-## ⚡ Quick Start (बस ये चलाओ और शुरू हो जाएगा)
+## ⚡ Quick Start (TL;DR — Copy & Run)
 
-प्रोजेक्ट चलाने के लिए **दो अलग-अलग Terminal / Command Prompt** खोलें:
+Open **two separate terminal windows** in the project root:
 
 ### 🖥️ Terminal 1 — Backend:
 `ash
@@ -14,7 +14,8 @@ cd backend
 npm install
 npm run dev
 `
-> 🌐 **Backend API**: http://localhost:8000
+> 🌐 **Backend API**: http://localhost:8000  
+> 🩺 **Health Check**: http://localhost:8000/api/v1/health
 
 ---
 
@@ -40,7 +41,7 @@ npm run dev
 
 Before running the project, make sure you have:
 - **Node.js** (v18.0.0 or higher recommended)
-- **npm** (comes with Node.js)
+- **npm** (bundled with Node.js)
 - **Git**
 
 ---
