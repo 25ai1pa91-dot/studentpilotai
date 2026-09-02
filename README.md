@@ -10,11 +10,9 @@ Open **two separate terminal windows** in the project root:
 
 ### 🖥️ Terminal 1 — Backend:
 `ash
-
 cd backend
-
+cp .env.example .env    # (On Windows CMD: copy .env.example .env)
 npm install
-
 npm run dev
 `
 > 🌐 **Backend API**: http://localhost:8000  
@@ -24,11 +22,9 @@ npm run dev
 
 ### 💻 Terminal 2 — Frontend:
 `ash
-
 cd frontend
-
+cp .env.example .env    # (On Windows CMD: copy .env.example .env)
 npm install
-
 npm run dev
 `
 > 🚀 **Frontend Web App**: http://localhost:8443/
@@ -55,7 +51,12 @@ Before running the project, make sure you have:
 ## ⚙️ Environment Variables Setup
 
 ### 1. Backend (ackend/.env)
-Create a .env file in the ackend/ directory:
+Create a .env file from .env.example in the ackend/ directory:
+`ash
+cd backend
+cp .env.example .env
+`
+Default configuration values:
 `env
 PORT=8000
 NODE_ENV=development
@@ -68,7 +69,12 @@ LOG_LEVEL=info
 `
 
 ### 2. Frontend (rontend/.env)
-Create a .env file in the rontend/ directory:
+Create a .env file from .env.example in the rontend/ directory:
+`ash
+cd frontend
+cp .env.example .env
+`
+Default configuration values:
 `env
 VITE_API_BASE_URL=http://localhost:8000/api/v1
 `
