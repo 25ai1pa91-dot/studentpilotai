@@ -1,0 +1,10 @@
+{
+  "description": "Empowering students with AI-driven educational tools, this platform enhances learning experiences through intuitive design and focused user interactions.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
